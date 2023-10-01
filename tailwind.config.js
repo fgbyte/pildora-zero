@@ -10,7 +10,7 @@ module.exports = {
         xl: '1440px'
       },
       colors: {
-
+        
       },
       fontFamily: {
 
