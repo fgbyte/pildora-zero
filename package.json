@@ -2,6 +2,8 @@
   "name": "pildora-zero",
   "module": "index.ts",
   "type": "module",
+  "licence": "MIT",
+  "version": "1.0.0.0",
   "scripts": {
     "dev": "tailwindcss -i ./input.css -o ./dist/css/main.css --watch",
     "build": "tailwindcss -i ./input.css -o ./dist/css/main.css"
