@@ -1,3 +1,119 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  /* Typography */
+
+  /* Fuente OpenSauceOne - Peso Negro */
+  @font-face {
+    font-family: "OpenSauceOne";
+    src: url("../assets/fonts/OpenSauceOne-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  /* Fuente OpenSauceOne - Peso Negro Itálico */
+  @font-face {
+    font-family: "OpenSauceOne";
+    src: url("../assets/fonts/OpenSauceOne-BlackItalic.woff") format("woff");
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  /* Fuente OpenSauceOne - Peso Bold */
+  @font-face {
+    font-family: "OpenSauceOne";
+    src: url("../assets/fonts/OpenSauceOne-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  /* Fuente OpenSauceOne - Peso Bold Itálico */
+  @font-face {
+    font-family: "OpenSauceOne";
+    src: url("../assets/fonts/OpenSauceOne-BoldItalic.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  /* Fuente OpenSauceOne - Peso ExtraBold */
+  @font-face {
+    font-family: "OpenSauceOne";
+    src: url("../assets/fonts/OpenSauceOne-ExtraBold.woff") format("woff");
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  /* Fuente OpenSauceOne - Peso ExtraBold Itálico */
+  @font-face {
+    font-family: "OpenSauceOne";
+    src: url("../assets/fonts/OpenSauceOne-ExtraBoldItalic.woff") format("woff");
+    font-weight: 800;
+    font-style: italic;
+  }
+
+  /* Fuente OpenSauceOne - Peso Itálico */
+  @font-face {
+    font-family: "OpenSauceOne";
+    src: url("../assets/fonts/OpenSauceOne-Italic.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+  }
+
+  /* Fuente OpenSauceOne - Peso Light */
+  @font-face {
+    font-family: "OpenSauceOne";
+    src: url("../assets/fonts/OpenSauceOne-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  /* Fuente OpenSauceOne - Peso Light Itálico */
+  @font-face {
+    font-family: "OpenSauceOne";
+    src: url("../assets/fonts/OpenSauceOne-LightItalic.woff") format("woff");
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  /* Fuente OpenSauceOne - Peso Medium */
+  @font-face {
+    font-family: "OpenSauceOne";
+    src: url("../assets/fonts/OpenSauceOne-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  /* Fuente OpenSauceOne - Peso Medium Itálico */
+  @font-face {
+    font-family: "OpenSauceOne";
+    src: url("../assets/fonts/OpenSauceOne-MediumItalic.woff") format("woff");
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  /* Fuente OpenSauceOne - Peso Regular */
+  @font-face {
+    font-family: "OpenSauceOne";
+    src: url("../assets/fonts/OpenSauceOne-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  /* Fuente OpenSauceOne - Peso SemiBold */
+  @font-face {
+    font-family: "OpenSauceOne";
+    src: url("../assets/fonts/OpenSauceOne-SemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  /* Fuente OpenSauceOne - Peso SemiBold Itálico */
+  @font-face {
+    font-family: "OpenSauceOne";
+    src: url("../assets/fonts/OpenSauceOne-SemiBoldItalic.woff") format("woff");
+    font-weight: 600;
+    font-style: italic;
+  }
+}

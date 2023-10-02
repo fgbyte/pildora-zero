@@ -1,0 +1,15 @@
+fonts.txt
+OpenSauceOne-Black.ttf
+OpenSauceOne-BlackItalic.ttf
+OpenSauceOne-Bold.ttf
+OpenSauceOne-BoldItalic.ttf
+OpenSauceOne-ExtraBold.ttf
+OpenSauceOne-ExtraBoldItalic.ttf
+OpenSauceOne-Italic.ttf
+OpenSauceOne-Light.ttf
+OpenSauceOne-LightItalic.ttf
+OpenSauceOne-Medium.ttf
+OpenSauceOne-MediumItalic.ttf
+OpenSauceOne-Regular.ttf
+OpenSauceOne-SemiBold.ttf
+OpenSauceOne-SemiBoldItalic.ttf

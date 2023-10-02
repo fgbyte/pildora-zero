@@ -10,10 +10,13 @@ module.exports = {
         xl: '1440px'
       },
       colors: {
-        
+        white: '#FFFFFF',
+        purple: '#DC3684',
+        violet: '#63356D',
+        black: '#262526'
       },
       fontFamily: {
-
+        primary: ['OpenSauceOne']
       },
     },
   },
