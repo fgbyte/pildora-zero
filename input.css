@@ -166,3 +166,11 @@
     line-height: normal;
   }
 }
+
+
+ 
+@layer components {
+  .btn-simple {
+    @apply flex gap-2 justify-center items-center text-2xl font-medium py-[2px] px-3 w-fit h-fit bg-purple text-white rounded-full;
+  }
+}
