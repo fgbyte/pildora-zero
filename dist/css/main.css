@@ -434,7 +434,7 @@ video {
   display: none;
 }
 
-/* Typography */
+/** Fonts */
 
 /* Fuente OpenSauceOne - Peso Negro */
 
@@ -604,6 +604,94 @@ video {
   font-style: italic;
 }
 
+/** Typography */
+
+h1 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+@media (min-width: 976px) {
+  h1 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+
+h1 {
+  font-family: "OpenSauceOne";
+  font-weight: 700;
+  line-height: normal;
+}
+
+blockquote {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+@media (min-width: 976px) {
+  blockquote {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
+blockquote {
+  font-family: "OpenSauceOne";
+  font-weight: 700;
+  line-height: normal;
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+@media (min-width: 976px) {
+  h2 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+
+h2 {
+  font-family: "OpenSauceOne";
+  font-weight: 400;
+  line-height: normal;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-family: "OpenSauceOne";
+  font-weight: 700;
+  line-height: normal;
+}
+
+h4 {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-family: "OpenSauceOne";
+  font-weight: 400;
+  line-height: normal;
+}
+
+p {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-family: "OpenSauceOne";
+  font-weight: 400;
+  line-height: normal;
+}
+
+button {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-family: "OpenSauceOne";
+  font-weight: 400;
+  line-height: normal;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -704,36 +792,114 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.font-primary {
-  font-family: OpenSauceOne;
+.mt-3 {
+  margin-top: 0.75rem;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+.flex {
+  display: flex;
 }
 
-.font-black {
-  font-weight: 900;
+.flex-col {
+  flex-direction: column;
 }
 
-.font-bold {
-  font-weight: 700;
+.items-center {
+  align-items: center;
 }
 
-.font-thin {
-  font-weight: 100;
+.gap-4 {
+  gap: 1rem;
 }
 
-.font-\[400\] {
-  font-weight: 400;
+.gap-2 {
+  gap: 0.5rem;
 }
 
-.font-\[700\] {
-  font-weight: 700;
+.rounded-full {
+  border-radius: 9999px;
 }
 
-.text-red-500 {
+.bg-\[\#EDE8FF\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(237 232 255 / var(--tw-bg-opacity));
+}
+
+.bg-purple {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 54 132 / var(--tw-bg-opacity));
+}
+
+.p-16 {
+  padding: 4rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-purple {
   --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
+  color: rgb(220 54 132 / var(--tw-text-opacity));
+}
+
+.text-violet {
+  --tw-text-opacity: 1;
+  color: rgb(99 53 109 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 976px) {
+  .lg\:mt-6 {
+    margin-top: 1.5rem;
+  }
+
+  .lg\:px-\[25\%\] {
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+
+  .lg\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .lg\:py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .lg\:py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .lg\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
 }

@@ -3,8 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-  /* Typography */
-
+  /** Fonts */
   /* Fuente OpenSauceOne - Peso Negro */
   @font-face {
     font-family: "OpenSauceOne";
@@ -115,5 +114,55 @@
     src: url("../assets/fonts/OpenSauceOne-SemiBoldItalic.woff") format("woff");
     font-weight: 600;
     font-style: italic;
+  }
+
+  /** Typography */
+  h1 {
+    @apply text-2xl lg:text-4xl;
+    font-family: "OpenSauceOne";
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  blockquote {
+    @apply text-lg lg:text-xl;
+    font-family: "OpenSauceOne";
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  h2 {
+    @apply text-2xl lg:text-4xl;
+    font-family: "OpenSauceOne";
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  h3 {
+    @apply text-2xl;
+    font-family: "OpenSauceOne";
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  h4 {
+    @apply text-lg;
+    font-family: "OpenSauceOne";
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  p {
+    @apply text-sm;
+    font-family: "OpenSauceOne";
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  button {
+    @apply text-lg;
+    font-family: "OpenSauceOne";
+    font-weight: 400;
+    line-height: normal;
   }
 }
