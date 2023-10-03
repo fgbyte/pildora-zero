@@ -118,49 +118,49 @@
 
   /** Typography */
   h1 {
-    @apply text-2xl lg:text-4xl;
+    @apply text-4xl lg:text-6xl;
     font-family: "OpenSauceOne";
     font-weight: 700;
     line-height: normal;
   }
 
   blockquote {
-    @apply text-lg lg:text-xl;
+    @apply text-xl lg:text-3xl;
     font-family: "OpenSauceOne";
     font-weight: 700;
     line-height: normal;
   }
 
   h2 {
-    @apply text-2xl lg:text-4xl;
+    @apply text-4xl lg:text-6xl;
     font-family: "OpenSauceOne";
     font-weight: 400;
     line-height: normal;
   }
 
   h3 {
-    @apply text-2xl;
+    @apply text-4xl;
     font-family: "OpenSauceOne";
     font-weight: 700;
     line-height: normal;
   }
 
   h4 {
-    @apply text-lg;
+    @apply text-xl;
     font-family: "OpenSauceOne";
     font-weight: 400;
     line-height: normal;
   }
 
   p {
-    @apply text-sm;
+    @apply text-base;
     font-family: "OpenSauceOne";
     font-weight: 400;
     line-height: normal;
   }
 
   button {
-    @apply text-lg;
+    @apply text-xl;
     font-family: "OpenSauceOne";
     font-weight: 400;
     line-height: normal;

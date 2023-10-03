@@ -11,7 +11,7 @@ module.exports = {
       },
       colors: {
         white: '#FFFFFF',
-        purple: '#DC3684',
+        purple: '#EA3692',
         violet: '#63356D',
         black: '#262526'
       },
