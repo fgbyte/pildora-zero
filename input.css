@@ -174,3 +174,33 @@
     @apply flex gap-2 justify-center items-center text-2xl font-medium py-[2px] px-3 w-fit h-fit bg-purple text-white rounded-full;
   }
 }
+
+
+
+.expand-acordion {
+  max-height: 1000px;
+  animation: animation-menu-expand 1s ease-in-out;
+}
+.contract-acordion {
+  max-height: 0;
+  animation: animation-menu 1s ease-in-out;
+}
+
+@keyframes animation-menu-expand {
+  0% {
+    max-height: 0;
+  }
+
+  100% {
+    max-height: 1000px;
+  }
+}
+@keyframes animation-menu {
+  0% {
+    max-height: 1000px;
+  }
+
+  100% {
+    max-height: 0;
+  }
+}
