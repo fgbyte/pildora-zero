@@ -1043,34 +1043,16 @@ button {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.acor-modal-item{
+  transition: all 0.5 ease-in-out;
+}
+
 .expand-acordion {
   max-height: 1000px;
-  animation: animation-menu-expand 1s ease-in-out;
 }
 
 .contract-acordion {
   max-height: 0;
-  animation: animation-menu 1s ease-in-out;
-}
-
-@keyframes animation-menu-expand {
-  0% {
-    max-height: 0;
-  }
-
-  100% {
-    max-height: 1000px;
-  }
-}
-
-@keyframes animation-menu {
-  0% {
-    max-height: 1000px;
-  }
-
-  100% {
-    max-height: 0;
-  }
 }
 
 .hover\:scale-125:hover {
