@@ -175,12 +175,7 @@
   }
 }
 
-.acor-modal-item{
-  transition: all 0.5 ease-in-out;
-}
+
 .expand-acordion {
   max-height: 1000px;
-}
-.contract-acordion {
-  max-height: 0;
 }
