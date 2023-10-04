@@ -1721,6 +1721,18 @@ button {
   }
 }
 
+.\[\&\>div\>div\>p\]\:leading-normal>div>div>p {
+  line-height: 1.5;
+}
+
+.\[\&\>div\>p\]\:leading-normal>div>p {
+  line-height: 1.5;
+}
+
+.\[\&\>divdiv\>\>p\]\:leading-normal>divdiv>>p {
+  line-height: 1.5;
+}
+
 .\[\&_summary\:\:-webkit-details-marker\]\:hidden summary::-webkit-details-marker {
   display: none;
 }
