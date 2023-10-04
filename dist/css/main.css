@@ -808,6 +808,42 @@ button {
   top: 50%;
 }
 
+.bottom-40 {
+  bottom: 10rem;
+}
+
+.bottom-\[40\%\] {
+  bottom: 40%;
+}
+
+.bottom-\[30\%\] {
+  bottom: 30%;
+}
+
+.bottom-\[25\%\] {
+  bottom: 25%;
+}
+
+.bottom-\[10\%\] {
+  bottom: 10%;
+}
+
+.bottom-\[7\%\] {
+  bottom: 7%;
+}
+
+.bottom-\[28\%\] {
+  bottom: 28%;
+}
+
+.bottom-\[5\%\] {
+  bottom: 5%;
+}
+
+.bottom-\[6\%\] {
+  bottom: 6%;
+}
+
 .row-span-2 {
   grid-row: span 2 / span 2;
 }
@@ -878,6 +914,23 @@ button {
 
 .h-full {
   height: 100%;
+}
+
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.h-\[50vh\] {
+  height: 50vh;
+}
+
+.h-\[70vh\] {
+  height: 70vh;
+}
+
+.h-\[80vh\] {
+  height: 80vh;
 }
 
 .w-\[100\%\] {
@@ -1059,6 +1112,46 @@ button {
   background-color: rgb(249 247 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[url\(\'\/assets\/img\/valientes_representadoras\.webp\'\)\] {
+  background-image: url('/assets/img/valientes_representadoras.webp');
+}
+
+.bg-\[url\(\'\/assets\/img\/valientes_repensadoras\.webp\'\)\] {
+  background-image: url('/assets/img/valientes_repensadoras.webp');
+}
+
+.bg-\[url\(\'\.\/assets\/img\/valientes_repensadoras\.webp\'\)\] {
+  background-image: url('./assets/img/valientes_repensadoras.webp');
+}
+
+.bg-\[url\(\'\.\.\/assets\/img\/valientes_repensadoras\.webp\'\)\] {
+  background-image: url('../assets/img/valientes_repensadoras.webp');
+}
+
+.bg-\[url\(\'\.\.\/assets\/imgs\/valientes_repensadoras\.webp\'\)\] {
+  background-image: url('../assets/imgs/valientes_repensadoras.webp');
+}
+
+.bg-\[url\(\'\.\.\/assets\/imgs\/Layer_0_2\.png\'\)\] {
+  background-image: url('../assets/imgs/Layer_0_2.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/imgs\/valientes\.png\'\)\] {
+  background-image: url('../assets/imgs/valientes.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/imgs\/valientes\.webp\'\)\] {
+  background-image: url('../assets/imgs/valientes.webp');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -1205,6 +1298,10 @@ button {
     display: grid;
   }
 
+  .lg\:hidden {
+    display: none;
+  }
+
   .lg\:h-\[166px\] {
     height: 166px;
   }
@@ -1220,6 +1317,18 @@ button {
   .lg\:scale-75 {
     --tw-scale-x: .75;
     --tw-scale-y: .75;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .lg\:scale-0 {
+    --tw-scale-x: 0;
+    --tw-scale-y: 0;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .lg\:scale-100 {
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
