@@ -12,4 +12,16 @@ btnAcorModal.forEach((element , index) => {
 });
 
 
+btnAcorModal.forEach((element , index) => {
+    if (window.innerWidth > 976) {
+        btnAcorModal[index].addEventListener('click', () => { 
+              if (index > 1) {
+                console.log(index);
+              }
+              else{
+                console.log(index);
+              }
+         })
+    }
+});
 
