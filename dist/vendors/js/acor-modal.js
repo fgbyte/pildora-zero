@@ -11,35 +11,34 @@ modalRight.classList.add('hidden')
 
 btnAcorModal.forEach((element, index) => {
 
-    btnAcorModal[index].addEventListener('click', () => {
+  btnAcorModal[index].addEventListener('click', () => {
 
-        if (window.innerWidth < 976) {
-            acorModalItem.forEach((e) => { e.classList.remove('expand-acordion') })//Esta linea es opcional, es para q solo se vea un acordeon a la vez, ademas siempre se vera almenos uno.
-            acorModalItem[index].classList.toggle('expand-acordion');
-        }
-        if (window.innerWidth > 976) {
-            if (index >= 7) {
-                modalLeft.classList.toggle('hidden')
-                modalRight.classList.add('hidden')
-                
-                console.log(index);
-            }
-            else if (index < 7) {
-                modalRight.classList.toggle('hidden')
-                modalLeft.classList.add('hidden')
-                console.log(index);
-            }
-        }
-    })
+    if (window.innerWidth < 976) {
+      acorModalItem.forEach((e) => { e.classList.remove('expand-acordion') })//Esta linea es opcional, es para q solo se vea un acordeon a la vez, ademas siempre se vera almenos uno.
+      acorModalItem[index].classList.toggle('expand-acordion');
+    }
+    if (window.innerWidth > 976) {
+      if (index >= 7) {
+        modalLeft.classList.toggle('hidden')
+        modalRight.classList.add('hidden')
+      }
+      else if (index < 7) {
+        modalRight.classList.toggle('hidden')
+        modalLeft.classList.add('hidden')
+      }
+    }
+  })
 });
 
-
 closeModal.forEach((el, i) => {
-    closeModal[i].addEventListener('click', () => {
-        modalLeft.classList.add('hidden')
-        modalRight.classList.add('hidden')
-    })
+  closeModal[i].addEventListener('click', () => {
+    modalLeft.classList.add('hidden')
+    modalRight.classList.add('hidden')
+  })
 })
+
+
+
 
 
 const carousels = document.querySelectorAll(".carousel-container");
@@ -63,11 +62,35 @@ carousels.forEach((carousel, carouselIndex) => {
 
   controlItems.forEach((item, index) => {
     item.addEventListener("click", () => {
-      const cardWidth = carousel.querySelector(".snap-start").offsetWidth;
-      carousel.scroll({ left: cardWidth * index, behavior: "smooth" });
+      muveItems(index)
     });
   });
- 
+
+
+  const guiasExterna = document.querySelectorAll('.acor-modal');
+
+  let indexFinal = 0
+  guiasExterna.forEach((el, i) => {
+    guiasExterna[i].addEventListener('click', () => {
+      if (i > 6) {
+        indexFinal = i - 7
+
+      }
+      else {
+        indexFinal = i
+      }
+      muveItems(indexFinal)
+
+    })
+
+  })
+
+  const muveItems = (index) => {
+    const cardWidth = carousel.querySelector(".snap-start").offsetWidth;
+    carousel.scroll({ left: cardWidth * index, behavior: "smooth" });
+  }
+
+
   carousel.addEventListener("scroll", () => {
     const cardWidth = carousel.querySelector(".snap-start").offsetWidth;
     const scrollPos = carousel.scrollLeft;
@@ -75,7 +98,6 @@ carousels.forEach((carousel, carouselIndex) => {
     setActiveControl(activeControlIndex);
   });
 });
-
 
 
 
