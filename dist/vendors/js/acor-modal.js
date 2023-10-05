@@ -5,7 +5,7 @@ const modalLeft = document.querySelector('#modal-left');
 const modalRight = document.querySelector('#modal-right');
 const closeModal = document.querySelectorAll('.close-modal')
 
-//Por defecto estan con display none.
+
 modalLeft.classList.add('hidden')
 modalRight.classList.add('hidden')
 
@@ -19,21 +19,21 @@ btnAcorModal.forEach((element, index) => {
         }
         if (window.innerWidth > 976) {
             if (index >= 7) {
-                modalRight.classList.toggle('hidden')
-                modalLeft.classList.add('hidden')
+                modalLeft.classList.toggle('hidden')
+                modalRight.classList.add('hidden')
                 
                 console.log(index);
             }
             else if (index < 7) {
-                modalLeft.classList.toggle('hidden')
-                modalRight.classList.add('hidden')
+                modalRight.classList.toggle('hidden')
+                modalLeft.classList.add('hidden')
                 console.log(index);
             }
         }
     })
 });
 
-//Para la x q cierra los modales.
+
 closeModal.forEach((el, i) => {
     closeModal[i].addEventListener('click', () => {
         modalLeft.classList.add('hidden')
@@ -67,7 +67,6 @@ carousels.forEach((carousel, carouselIndex) => {
       carousel.scroll({ left: cardWidth * index, behavior: "smooth" });
     });
   });
-
  
   carousel.addEventListener("scroll", () => {
     const cardWidth = carousel.querySelector(".snap-start").offsetWidth;

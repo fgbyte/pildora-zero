@@ -199,3 +199,11 @@
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
+
+.border-gray-300{
+  border-color: #eee;
+}
+
+.border-purple{
+   border-color: #EA3692;
+}
