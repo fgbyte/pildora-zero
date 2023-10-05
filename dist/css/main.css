@@ -860,8 +860,16 @@ button {
   margin-left: -2rem;
 }
 
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
 .mb-16 {
   margin-bottom: 4rem;
+}
+
+.ml-16 {
+  margin-left: 4rem;
 }
 
 .ml-4 {
@@ -1337,11 +1345,6 @@ button {
   padding-bottom: 10%;
 }
 
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -1661,6 +1664,10 @@ button {
 
   .lg\:flex-row-reverse {
     flex-direction: row-reverse;
+  }
+
+  .lg\:items-end {
+    align-items: flex-end;
   }
 
   .lg\:items-center {
