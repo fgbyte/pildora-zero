@@ -166,3 +166,44 @@
     line-height: normal;
   }
 }
+
+
+ 
+@layer components {
+  .btn-simple {
+    @apply flex gap-2 justify-center items-center text-base font-medium py-[2px] px-3 w-fit h-fit bg-purple text-white rounded-full;
+  }
+}
+
+
+.expand-acordion {
+  max-height: 1000px;
+}
+
+.hidden{
+  display: none;
+}
+
+.bg-guias{
+  background: #FFD2E9;
+}
+
+
+/* Para Chrome */
+.carousel-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Para Firefox */
+.carousel-container {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.border-gray-300{
+  border-color: #eee;
+}
+
+.border-purple{
+   border-color: #EA3692;
+}
