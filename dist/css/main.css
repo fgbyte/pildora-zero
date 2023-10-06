@@ -1816,6 +1816,10 @@ button {
     gap: 2.5rem;
   }
 
+  .lg\:gap-6 {
+    gap: 1.5rem;
+  }
+
   .lg\:space-y-1 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
@@ -1882,6 +1886,11 @@ button {
   .lg\:py-\[5\%\] {
     padding-top: 5%;
     padding-bottom: 5%;
+  }
+
+  .lg\:px-\[10\%\] {
+    padding-left: 10%;
+    padding-right: 10%;
   }
 
   .lg\:pb-4 {
