@@ -1802,6 +1802,18 @@ button {
     height: 80vh;
   }
 
+  .lg\:h-\[80\%\] {
+    height: 80%;
+  }
+
+  .lg\:h-\[85\%\] {
+    height: 85%;
+  }
+
+  .lg\:h-\[75\%\] {
+    height: 75%;
+  }
+
   .lg\:w-1\/2 {
     width: 50%;
   }
