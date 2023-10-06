@@ -1005,6 +1005,14 @@ button {
   height: 90px;
 }
 
+.h-20 {
+  height: 5rem;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
 .max-h-0 {
   max-height: 0px;
 }
@@ -1072,6 +1080,10 @@ button {
 .w-fit {
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.w-\[80\%\] {
+  width: 80%;
 }
 
 .min-w-\[150px\] {
