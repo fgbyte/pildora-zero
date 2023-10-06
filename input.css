@@ -279,3 +279,114 @@
   width: 20px;
   height: 20px;
 }
+
+
+
+
+/* Slider */
+#slider {
+  position: relative;
+  width: 380px;
+  height: 469px;
+  margin: 150px auto;
+  perspective: 1200px;
+  transform-style: preserve-3d;
+}
+
+input[type=radio] {
+  position: relative;
+  top: 108%;
+  left: 50%;
+  width: 18px;
+  height: 18px;
+  margin: 0 15px 0 0;
+  opacity: .4;
+  transform: translateX(-83px);
+  cursor: pointer;
+  color: red;
+  background-color: red;
+}
+
+input[type=radio]:nth-child(5) {
+  margin-right: 0px;
+}
+
+input[type=radio]:checked {
+  opacity: 1;
+}
+
+input[type=radio]::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  background: transparent;
+  border: 100px solid red;
+  border-radius: 15px;
+  transform: scale(0.8);
+  top: -2px;
+  left: -2px;
+  
+  display: inline-block;
+}
+
+
+#slider label,
+#slider label img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 400ms ease;
+}
+
+#slider1:checked ~ #slide1,
+#slider2:checked ~ #slide2,
+#slider3:checked ~ #slide3,
+#slider4:checked ~ #slide4,
+#slider5:checked ~ #slide5 {
+  box-shadow: 0 13px 26px rgba(0,0,0, 0.3), 0 12px 6px rgba(0,0,0, 0.2);
+  transform: translate3d(0%, 0, 0px);
+}
+
+#slider1:checked ~ #slide2,
+#slider2:checked ~ #slide3,
+#slider3:checked ~ #slide4,
+#slider4:checked ~ #slide5,
+#slider5:checked ~ #slide1 {
+  box-shadow: 0 6px 10px rgba(0,0,0, 0.3), 0 2px 2px rgba(0,0,0, 0.2);
+  transform: translate3d(70%, 0, -100px);
+}
+
+#slider1:checked ~ #slide3,
+#slider2:checked ~ #slide4,
+#slider3:checked ~ #slide5,
+#slider4:checked ~ #slide1,
+#slider5:checked ~ #slide2 {
+  box-shadow: 0 1px 4px rgba(0,0,0, 0.4);
+  transform: translate3d(140%, 0, -250px);
+}
+
+#slider1:checked ~ #slide4,
+#slider2:checked ~ #slide5,
+#slider3:checked ~ #slide1,
+#slider4:checked ~ #slide2,
+#slider5:checked ~ #slide3 {
+  box-shadow: 0 1px 4px rgba(0,0,0, 0.4);
+  transform: translate3d(-140%, 0, -250px);
+}
+
+#slider1:checked ~ #slide5,
+#slider2:checked ~ #slide1,
+#slider3:checked ~ #slide2,
+#slider4:checked ~ #slide3,
+#slider5:checked ~ #slide4 {
+  box-shadow: 0 6px 10px rgba(0,0,0, 0.3), 0 2px 2px rgba(0,0,0, 0.2);
+  transform: translate3d(-70%, 0, -100px);
+}
