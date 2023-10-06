@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Píldora Zero</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./vendors/css/swiper-bundle.min.css">
 </head>
 
 <body class="flex flex-col gap-4 items-center">
 
-    
-    <h1 >Hay dramas en la vida
+
+    <h1>Hay dramas en la vida
         que no se pueden evitar,</h1>
 
 
@@ -27,38 +28,66 @@
 
     <h4>Píldora sin estrógenos</h4>
 
-    <p>Comprimido de ingesta oral que contiene hormonas sintéticas que imitan las hormonas sexuales femeninas estrógeno y gestágeno para prevenir el embarazo. Es necesaria la prescripción médica.</p>
+    <p>Comprimido de ingesta oral que contiene hormonas sintéticas que imitan las hormonas sexuales femeninas estrógeno
+        y gestágeno para prevenir el embarazo. Es necesaria la prescripción médica.</p>
 
-    <button class=" flex justify-center items-center gap-2 px-6 py-1 bg-purple text-white rounded-full scale-75 lg:scale-100 lg:px-8 lg:py-2 lg:hover:scale-110 transition ease-in-out">
+    <button
+        class=" flex justify-center items-center gap-2 px-6 py-1 bg-purple text-white rounded-full scale-75 lg:scale-100 lg:px-8 lg:py-2 lg:hover:scale-110 transition ease-in-out">
         Ver más
         <span class="lg:hidden ">
             <svg width="11" height="13" viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1.16699 1L9.20882 6.68317L1.68572 12" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
-                </svg>
-                
+                <path d="M1.16699 1L9.20882 6.68317L1.68572 12" stroke="white" stroke-width="2"
+                    stroke-miterlimit="10" />
+            </svg>
+
         </span>
     </button>
 
 
     <!-- CAROUSEL Desktop -->
-     <div class="mt-32 gallery w-[100%]">
-                <div class="gallery-container flex items-center relative">
-                    <img src="./assets/imgs/migrana.webp" alt="mujer" class="gallery-item gallery-item-1"
-                        data-index="1">
-                    <img src="./assets/imgs/migrana.webp" alt="mujer" class="gallery-item gallery-item-2"
-                        data-index="2">
-                    <img src="./assets/imgs/migrana.webp" alt="mujer" class="gallery-item gallery-item-3"
-                        data-index="3">
-                    <img src="./assets/imgs/migrana.webp" alt="mujer" class="gallery-item gallery-item-4"
-                        data-index="4">
-                    <img src="./assets/imgs/migrana.webp" alt="mujer" class="gallery-item gallery-item-5"
-                        data-index="5">
-                </div>
-                <div class="gallery-controls">
+    <div class="mt-32 gallery w-[100%]">
+        <div class="gallery-container flex items-center relative">
+            <img src="./assets/imgs/c-item-1.webp" alt="mujer" class="gallery-item gallery-item-1" data-index="1">
+            <img src="./assets/imgs/c-item-2.webp" alt="mujer" class="gallery-item gallery-item-2" data-index="2">
+            <img src="./assets/imgs/c-item-3.webp" alt="mujer" class="gallery-item gallery-item-3" data-index="3">
+            <img src="./assets/imgs/c-item-4.webp" alt="mujer" class="gallery-item gallery-item-4" data-index="4">
+            <img src="./assets/imgs/c-item-5.webp" alt="mujer" class="gallery-item gallery-item-5" data-index="5">
+        </div>
+        <div class="gallery-controls">
 
-                </div>
+        </div>
+    </div>
+
+
+    <div class="mt-32">
+
+        <!-- Swiper Carousel -->
+
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                ...
             </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
 
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+
+    </div>
+
+    <script src="./vendors/js/swiper-element-bundle.min.js"></script>
+    <script src="./vendors/js/swiper-api.js"></script>
 </body>
 
 </html>
