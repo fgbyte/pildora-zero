@@ -1614,6 +1614,14 @@ button {
     height: 80vh;
   }
 
+  .lg\:h-24 {
+    height: 6rem;
+  }
+
+  .lg\:h-28 {
+    height: 7rem;
+  }
+
   .lg\:w-1\/2 {
     width: 50%;
   }
