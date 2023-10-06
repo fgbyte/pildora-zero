@@ -1598,6 +1598,10 @@ button {
     display: none;
   }
 
+  .lg\:h-28 {
+    height: 7rem;
+  }
+
   .lg\:h-32 {
     height: 8rem;
   }
@@ -1614,16 +1618,12 @@ button {
     height: 80vh;
   }
 
-  .lg\:h-24 {
-    height: 6rem;
-  }
-
-  .lg\:h-28 {
-    height: 7rem;
-  }
-
   .lg\:w-1\/2 {
     width: 50%;
+  }
+
+  .lg\:w-28 {
+    width: 7rem;
   }
 
   .lg\:w-32 {
@@ -1632,14 +1632,6 @@ button {
 
   .lg\:w-\[164px\] {
     width: 164px;
-  }
-
-  .lg\:w-24 {
-    width: 6rem;
-  }
-
-  .lg\:w-28 {
-    width: 7rem;
   }
 
   .lg\:scale-100 {
