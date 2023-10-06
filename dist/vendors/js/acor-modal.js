@@ -1,4 +1,3 @@
-
 const btnAcorModal = document.querySelectorAll('.acor-modal');
 const acorModalItem = document.querySelectorAll('.acor-modal-item');
 const modalLeft = document.querySelector('#modal-left');
