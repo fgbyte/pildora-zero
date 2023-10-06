@@ -146,7 +146,7 @@
   }
 
   h4 {
-    @apply text-xl;
+    @apply text-lg;
     font-family: "OpenSauceOne";
     font-weight: 400;
     line-height: normal;
@@ -175,6 +175,9 @@
   }
 }
 
+.acor-modal:hover {
+  cursor: pointer;
+}
 
 .expand-acordion {
   max-height: 1000px;
