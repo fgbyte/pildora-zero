@@ -901,10 +901,6 @@ button {
   z-index: 20;
 }
 
-.z-50 {
-  z-index: 50;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -1165,6 +1161,10 @@ button {
 
 .snap-start {
   scroll-snap-align: start;
+}
+
+.snap-center {
+  scroll-snap-align: center;
 }
 
 .grid-cols-4 {
