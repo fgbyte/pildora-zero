@@ -893,6 +893,38 @@ button {
   top: 7%;
 }
 
+.left-0 {
+  left: 0px;
+}
+
+.-left-\[50px\] {
+  left: -50px;
+}
+
+.-left-\[30px\] {
+  left: -30px;
+}
+
+.-left-\[40px\] {
+  left: -40px;
+}
+
+.top-4 {
+  top: 1rem;
+}
+
+.-left-\[37px\] {
+  left: -37px;
+}
+
+.-left-\[38px\] {
+  left: -38px;
+}
+
+.-left-\[39px\] {
+  left: -39px;
+}
+
 .z-0 {
   z-index: 0;
 }
@@ -1161,10 +1193,6 @@ button {
 
 .snap-start {
   scroll-snap-align: start;
-}
-
-.snap-center {
-  scroll-snap-align: center;
 }
 
 .grid-cols-4 {
