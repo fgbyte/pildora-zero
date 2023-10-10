@@ -901,6 +901,14 @@ button {
   bottom: 18%;
 }
 
+.-left-\[39px\] {
+  left: -39px;
+}
+
+.top-4 {
+  top: 1rem;
+}
+
 .z-0 {
   z-index: 0;
 }
