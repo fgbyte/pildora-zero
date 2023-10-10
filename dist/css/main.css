@@ -893,16 +893,20 @@ button {
   top: 7%;
 }
 
+.bottom-\[25\%\] {
+  bottom: 25%;
+}
+
+.bottom-\[18\%\] {
+  bottom: 18%;
+}
+
 .z-0 {
   z-index: 0;
 }
 
 .z-20 {
   z-index: 20;
-}
-
-.z-50 {
-  z-index: 50;
 }
 
 .mx-auto {
@@ -1486,6 +1490,11 @@ button {
   line-height: 1.75rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-black {
   font-weight: 900;
 }
@@ -1779,6 +1788,10 @@ input[type=radio]:checked::after {
 }
 
 @media (min-width: 976px) {
+  .lg\:bottom-\[25\%\] {
+    bottom: 25%;
+  }
+
   .lg\:row-span-2 {
     grid-row: span 2 / span 2;
   }
@@ -2014,6 +2027,11 @@ input[type=radio]:checked::after {
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .lg\:leading-normal {
