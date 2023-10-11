@@ -226,54 +226,6 @@
   transform-style: preserve-3d;
 }
 
-input[type=radio] {
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  position: relative;
-  top: 108%;
-  left: 50%;
-  width: 18px;
-  height: 18px;
-  margin: 0 15px 0 0;
-  transform: translateX(-83px);
-  cursor: pointer;
-}
-
-input[type=radio]:nth-child(5) {
-  margin-right: 0px;
-}
-
-input[type=radio]:checked {
-  opacity: 1;
-}
-
-input[type=radio]::after {
-  content: '';
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  margin: 0 15px 0 0;
-  opacity: 1;
-  cursor: pointer;
-  border: solid 1px #EA3692;
-  border-radius: 100%;
-}
-input[type=radio]:checked::after {
- content: '';
-  position: absolute;
-  left: 0;
-  width: 16px;
-  height: 16px;
-  margin: 0 15px 0 0;
-  opacity: 1;
-  cursor: pointer;
-  background: #EA3692;
-  border-radius: 100%;
-} 
-
-
-
 #slider label,
 #slider label img {
   position: absolute;
@@ -336,4 +288,55 @@ input[type=radio]:checked::after {
 
 
 
+input[type=radio] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: relative;
+  top: 108%;
+  left: 50%;
+  width: 18px;
+  height: 18px;
+  margin: 0 15px 0 0;
+  transform: translateX(-83px);
+  cursor: pointer;
+}
 
+input[type=radio]:nth-child(5) {
+  margin-right: 0px;
+}
+
+input[type=radio]:checked {
+  opacity: 1;
+}
+
+input[type=radio]::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  margin: 0 15px 0 0;
+  opacity: 1;
+  cursor: pointer;
+  border: solid 1px #EA3692;
+  border-radius: 100%;
+}
+input[type=radio]:checked::after {
+ content: '';
+  position: absolute;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  margin: 0 15px 0 0;
+  opacity: 1;
+  cursor: pointer;
+  background: #EA3692;
+  border-radius: 100%;
+} 
+
+
+.hover\:scale-115:hover {
+  --tw-scale-x: 1.15;
+  --tw-scale-y: 1.15;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
