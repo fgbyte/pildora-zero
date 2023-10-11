@@ -802,6 +802,12 @@ button {
   }
 }
 
+@media (min-width: 570px) {
+  .container {
+    max-width: 570px;
+  }
+}
+
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -1018,16 +1024,16 @@ button {
   height: 100%;
 }
 
-.h-\[100vh\] {
-  height: 100vh;
-}
-
 .h-\[115px\] {
   height: 115px;
 }
 
 .h-\[18\%\] {
   height: 18%;
+}
+
+.h-\[80vh\] {
+  height: 80vh;
 }
 
 .h-\[90px\] {
@@ -1100,6 +1106,10 @@ button {
 
 .w-full {
   width: 100%;
+}
+
+.w-screen {
+  width: 100vw;
 }
 
 .min-w-\[150px\] {
@@ -1506,11 +1516,6 @@ button {
   line-height: 1.75rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .font-black {
   font-weight: 900;
 }
@@ -1801,6 +1806,12 @@ input[type=radio]:checked::after {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+@media (min-width: 570px) {
+  .custom\:bg-\[url\(\'\.\.\/assets\/imgs\/valientes\.webp\'\)\] {
+    background-image: url('../assets/imgs/valientes.webp');
+  }
+}
+
 @media (min-width: 768px) {
   .md\:hidden {
     display: none;
@@ -1890,10 +1901,6 @@ input[type=radio]:checked::after {
 
   .lg\:h-\[75\%\] {
     height: 75%;
-  }
-
-  .lg\:h-\[80vh\] {
-    height: 80vh;
   }
 
   .lg\:w-1\/2 {
