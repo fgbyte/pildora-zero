@@ -919,6 +919,10 @@ button {
   top: 7%;
 }
 
+.bottom-\[30\%\] {
+  bottom: 30%;
+}
+
 .-z-\[1\] {
   z-index: -1;
 }
@@ -1048,6 +1052,14 @@ button {
   height: auto;
 }
 
+.h-\[40vh\] {
+  height: 40vh;
+}
+
+.h-\[50vh\] {
+  height: 50vh;
+}
+
 .max-h-0 {
   max-height: 0px;
 }
@@ -1118,6 +1130,14 @@ button {
 
 .w-\[35\%\] {
   width: 35%;
+}
+
+.w-\[300px\] {
+  width: 300px;
+}
+
+.w-\[100vw\] {
+  width: 100vw;
 }
 
 .min-w-\[150px\] {
@@ -1827,6 +1847,22 @@ input[type=radio]:checked::after {
 }
 
 @media (min-width: 570px) {
+  .custom\:h-auto {
+    height: auto;
+  }
+
+  .custom\:w-full {
+    width: 100%;
+  }
+
+  .custom\:w-\[100\%\] {
+    width: 100%;
+  }
+
+  .custom\:w-\[80\%\] {
+    width: 80%;
+  }
+
   .custom\:bg-\[url\(\'\.\.\/assets\/imgs\/valientes\.webp\'\)\] {
     background-image: url('../assets/imgs/valientes.webp');
   }
@@ -1919,6 +1955,10 @@ input[type=radio]:checked::after {
     height: 75%;
   }
 
+  .lg\:h-auto {
+    height: auto;
+  }
+
   .lg\:w-1\/2 {
     width: 50%;
   }
@@ -1933,6 +1973,10 @@ input[type=radio]:checked::after {
 
   .lg\:w-\[164px\] {
     width: 164px;
+  }
+
+  .lg\:w-full {
+    width: 100%;
   }
 
   .lg\:scale-100 {
@@ -1993,6 +2037,10 @@ input[type=radio]:checked::after {
 
   .lg\:border-l-0 {
     border-left-width: 0px;
+  }
+
+  .lg\:bg-\[url\(\'\.\.\/assets\/imgs\/valientes\.webp\'\)\] {
+    background-image: url('../assets/imgs/valientes.webp');
   }
 
   .lg\:p-0 {
