@@ -1112,6 +1112,14 @@ button {
   width: 100%;
 }
 
+.w-\[40\%\] {
+  width: 40%;
+}
+
+.w-\[35\%\] {
+  width: 35%;
+}
+
 .min-w-\[150px\] {
   min-width: 150px;
 }
