@@ -1060,6 +1060,10 @@ button {
   height: 50vh;
 }
 
+.h-4 {
+  height: 1rem;
+}
+
 .max-h-0 {
   max-height: 0px;
 }
@@ -1138,6 +1142,10 @@ button {
 
 .w-\[100vw\] {
   width: 100vw;
+}
+
+.w-4 {
+  width: 1rem;
 }
 
 .min-w-\[150px\] {
