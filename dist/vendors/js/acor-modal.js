@@ -52,9 +52,9 @@ carousels.forEach((carousel, carouselIndex) => {
   function setActiveControl(index) {
     controlItems.forEach((item, i) => {
       if (i === index) {
-        item.classList.add("bg-guias");
+        item.classList.add("bg-guias-sm");
       } else {
-        item.classList.remove("bg-guias");
+        item.classList.remove("bg-guias-sm");
       }
     });
   }

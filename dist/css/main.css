@@ -881,6 +881,18 @@ button {
   left: 50%;
 }
 
+.left-10 {
+  left: 2.5rem;
+}
+
+.left-12 {
+  left: 3rem;
+}
+
+.left-8 {
+  left: 2rem;
+}
+
 .top-1 {
   top: 0.25rem;
 }
@@ -901,36 +913,16 @@ button {
   top: 7%;
 }
 
-.left-10 {
-  left: 2.5rem;
-}
-
-.left-12 {
-  left: 3rem;
-}
-
-.left-8 {
-  left: 2rem;
-}
-
-.z-0 {
-  z-index: 0;
-}
-
-.z-20 {
-  z-index: 20;
+.-z-\[1\] {
+  z-index: -1;
 }
 
 .z-10 {
   z-index: 10;
 }
 
-.-z-0 {
-  z-index: 0;
-}
-
-.-z-\[1\] {
-  z-index: -1;
+.z-20 {
+  z-index: 20;
 }
 
 .mx-auto {
@@ -1046,10 +1038,6 @@ button {
   height: auto;
 }
 
-.h-28 {
-  height: 7rem;
-}
-
 .max-h-0 {
   max-height: 0px;
 }
@@ -1112,10 +1100,6 @@ button {
 
 .w-full {
   width: 100%;
-}
-
-.w-28 {
-  width: 7rem;
 }
 
 .min-w-\[150px\] {
@@ -1392,8 +1376,8 @@ button {
   background-color: rgb(99 53 109 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\.\.\/assets\/imgs\/valientes\.webp\'\)\] {
-  background-image: url('../assets/imgs/valientes.webp');
+.bg-\[url\(\'\.\.\/assets\/imgs\/valientes-sm\.webp\'\)\] {
+  background-image: url('../assets/imgs/valientes-sm.webp');
 }
 
 .bg-cover {
@@ -1522,6 +1506,11 @@ button {
   line-height: 1.75rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-black {
   font-weight: 900;
 }
@@ -1636,6 +1625,10 @@ button {
 
 .bg-guias{
   background: #FFD2E9;
+}
+
+.bg-guias-sm {
+  background: #EA3692;
 }
 
 /* Para Chrome */
@@ -1812,6 +1805,10 @@ input[type=radio]:checked::after {
   .md\:hidden {
     display: none;
   }
+
+  .md\:bg-\[url\(\'\.\.\/assets\/imgs\/valientes\.webp\'\)\] {
+    background-image: url('../assets/imgs/valientes.webp');
+  }
 }
 
 @media (min-width: 976px) {
@@ -1899,10 +1896,6 @@ input[type=radio]:checked::after {
     height: 80vh;
   }
 
-  .lg\:h-\[90px\] {
-    height: 90px;
-  }
-
   .lg\:w-1\/2 {
     width: 50%;
   }
@@ -1917,15 +1910,6 @@ input[type=radio]:checked::after {
 
   .lg\:w-\[164px\] {
     width: 164px;
-  }
-
-  .lg\:w-\[90px\] {
-    width: 90px;
-  }
-
-  .lg\:-translate-y-1\/2 {
-    --tw-translate-y: -50%;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
   .lg\:scale-100 {

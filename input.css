@@ -191,6 +191,10 @@
   background: #FFD2E9;
 }
 
+.bg-guias-sm {
+  background: #EA3692;
+}
+
 
 /* Para Chrome */
 .carousel-container::-webkit-scrollbar {
