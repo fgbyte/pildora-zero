@@ -871,8 +871,8 @@ button {
   right: -3rem;
 }
 
-.bottom-\[18\%\] {
-  bottom: 18%;
+.bottom-\[30\%\] {
+  bottom: 30%;
 }
 
 .bottom-\[5\%\] {
@@ -919,10 +919,6 @@ button {
   top: 7%;
 }
 
-.bottom-\[30\%\] {
-  bottom: 30%;
-}
-
 .-z-\[1\] {
   z-index: -1;
 }
@@ -966,10 +962,6 @@ button {
 
 .mt-10 {
   margin-top: 2.5rem;
-}
-
-.mt-11 {
-  margin-top: 2.75rem;
 }
 
 .mt-3 {
@@ -1024,6 +1016,10 @@ button {
   height: 8rem;
 }
 
+.h-4 {
+  height: 1rem;
+}
+
 .h-8 {
   height: 2rem;
 }
@@ -1040,8 +1036,8 @@ button {
   height: 18%;
 }
 
-.h-\[80vh\] {
-  height: 80vh;
+.h-\[40vh\] {
+  height: 40vh;
 }
 
 .h-\[90px\] {
@@ -1050,18 +1046,6 @@ button {
 
 .h-auto {
   height: auto;
-}
-
-.h-\[40vh\] {
-  height: 40vh;
-}
-
-.h-\[50vh\] {
-  height: 50vh;
-}
-
-.h-4 {
-  height: 1rem;
 }
 
 .max-h-0 {
@@ -1092,6 +1076,10 @@ button {
   width: 8rem;
 }
 
+.w-4 {
+  width: 1rem;
+}
+
 .w-72 {
   width: 18rem;
 }
@@ -1112,8 +1100,12 @@ button {
   width: 18%;
 }
 
-.w-\[30\%\] {
-  width: 30%;
+.w-\[300px\] {
+  width: 300px;
+}
+
+.w-\[35\%\] {
+  width: 35%;
 }
 
 .w-\[80\%\] {
@@ -1126,26 +1118,6 @@ button {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[40\%\] {
-  width: 40%;
-}
-
-.w-\[35\%\] {
-  width: 35%;
-}
-
-.w-\[300px\] {
-  width: 300px;
-}
-
-.w-\[100vw\] {
-  width: 100vw;
-}
-
-.w-4 {
-  width: 1rem;
 }
 
 .min-w-\[150px\] {
@@ -1440,10 +1412,6 @@ button {
   background-position: center;
 }
 
-.bg-top {
-  background-position: top;
-}
-
 .bg-no-repeat {
   background-repeat: no-repeat;
 }
@@ -1559,6 +1527,21 @@ button {
 
 .text-lg {
   font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
@@ -1859,20 +1842,8 @@ input[type=radio]:checked::after {
 }
 
 @media (min-width: 570px) {
-  .custom\:h-auto {
-    height: auto;
-  }
-
-  .custom\:w-full {
-    width: 100%;
-  }
-
   .custom\:w-\[100\%\] {
     width: 100%;
-  }
-
-  .custom\:w-\[80\%\] {
-    width: 80%;
   }
 
   .custom\:bg-\[url\(\'\.\.\/assets\/imgs\/valientes\.webp\'\)\] {
@@ -1987,10 +1958,6 @@ input[type=radio]:checked::after {
     width: 164px;
   }
 
-  .lg\:w-full {
-    width: 100%;
-  }
-
   .lg\:scale-100 {
     --tw-scale-x: 1;
     --tw-scale-y: 1;
@@ -2049,10 +2016,6 @@ input[type=radio]:checked::after {
 
   .lg\:border-l-0 {
     border-left-width: 0px;
-  }
-
-  .lg\:bg-\[url\(\'\.\.\/assets\/imgs\/valientes\.webp\'\)\] {
-    background-image: url('../assets/imgs/valientes.webp');
   }
 
   .lg\:p-0 {
@@ -2143,6 +2106,10 @@ input[type=radio]:checked::after {
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-\[40px\] {
+    font-size: 40px;
   }
 
   .lg\:leading-normal {
