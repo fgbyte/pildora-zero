@@ -1133,6 +1133,10 @@ button {
   min-width: 100%;
 }
 
+.min-w-\[200px\] {
+  min-width: 200px;
+}
+
 .max-w-6xl {
   max-width: 72rem;
 }
@@ -2075,6 +2079,11 @@ input[type=radio]:checked::after {
   .lg\:py-\[5\%\] {
     padding-top: 5%;
     padding-bottom: 5%;
+  }
+
+  .lg\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .lg\:pb-4 {
