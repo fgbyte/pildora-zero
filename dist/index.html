@@ -579,7 +579,7 @@
 
             <!-- carousel Mobile -->
             <div
-                class="carousel-container flex flex-row overflow-x-auto snap-x snap-mandatory gap-4 py-2 [&>div]:rounded-xl [&>div]:shadow-md lg:hidden">
+                class="carousel-container1 flex flex-row overflow-x-auto snap-x snap-mandatory gap-4 py-2 [&>div]:rounded-xl [&>div]:shadow-md lg:hidden">
                 <!-- cards -->
                 <div data-index="0" class="relative items-start min-w-fit snap-start">
                     <img class="w-72 h-auto" src="./assets/imgs/slider-item-1.webp" alt="">
@@ -617,12 +617,12 @@
                     </div>
                 </div>
             </div>
-            <div class="guias flex gap-4 hover:[&>div]:cursor-pointer max-h-[813px] pt-10 self-center lg:hidden">
-                <div data-index="0" class="h-4 w-4 border-2 border-purple rounded-full"></div>
-                <div data-index="1" class="h-4 w-4 border-2 border-purple rounded-full"></div>
-                <div data-index="2" class="h-4 w-4 border-2 border-purple rounded-full"></div>
-                <div data-index="3" class="h-4 w-4 border-2 border-purple rounded-full"></div>
-                <div data-index="4" class="h-4 w-4 border-2 border-purple rounded-full"></div>
+            <div class="guias1 flex gap-4 hover:[&>div]:cursor-pointer max-h-[813px] pt-10 self-center lg:hidden">
+                <div id="controls" data-index="0" class="h-4 w-4 border-2 border-purple rounded-full"></div>
+                <div id="controls" data-index="1" class="h-4 w-4 border-2 border-purple rounded-full"></div>
+                <div id="controls" data-index="2" class="h-4 w-4 border-2 border-purple rounded-full"></div>
+                <div id="controls" data-index="3" class="h-4 w-4 border-2 border-purple rounded-full"></div>
+                <div id="controls" data-index="4" class="h-4 w-4 border-2 border-purple rounded-full"></div>
             </div>
         </div>
     </section>
@@ -1077,6 +1077,7 @@
     <!-- Scripts Modals -->
     <script src="./vendors/js/quinesquien.js"></script>
     <script src="./vendors/js/acor-modal.js"></script>
+    <script src="./vendors/js/carousel-sm.js"></script>
 </body>
 
 </html>

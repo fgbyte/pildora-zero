@@ -200,9 +200,16 @@
 .carousel-container::-webkit-scrollbar {
   display: none;
 }
+.carousel-container1::-webkit-scrollbar {
+  display: none;
+}
 
 /* Para Firefox */
 .carousel-container {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.carousel-container1 {
   scrollbar-width: none;
   -ms-overflow-style: none;
 }

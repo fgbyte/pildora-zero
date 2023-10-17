@@ -1521,23 +1521,14 @@ button {
   line-height: 2rem;
 }
 
-.text-\[40px\] {
-  font-size: 40px;
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .text-xl {
@@ -1671,9 +1662,18 @@ button {
   display: none;
 }
 
+.carousel-container1::-webkit-scrollbar {
+  display: none;
+}
+
 /* Para Firefox */
 
 .carousel-container {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.carousel-container1 {
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
@@ -2103,13 +2103,13 @@ input[type=radio]:checked::after {
     line-height: 2.5rem;
   }
 
+  .lg\:text-\[40px\] {
+    font-size: 40px;
+  }
+
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .lg\:text-\[40px\] {
-    font-size: 40px;
   }
 
   .lg\:leading-normal {
